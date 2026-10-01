@@ -1,0 +1,78 @@
+{
+  "basis": "Printed-dimension PDF model vs prior scan reconstruction, translation-only registration",
+  "columns": [
+    {
+      "id": "C11",
+      "pdf_minus_scan_center_mm": [
+        -2.001329657897344,
+        9.839518193318852
+      ],
+      "center_distance_mm": 10.04098793327789
+    },
+    {
+      "id": "C12",
+      "pdf_minus_scan_center_mm": [
+        -8.212847850670002,
+        -9.540199537207528
+      ],
+      "center_distance_mm": 12.588338930454231
+    },
+    {
+      "id": "C13",
+      "pdf_minus_scan_center_mm": [
+        -19.762578044803192,
+        -20.022167116076517
+      ],
+      "center_distance_mm": 28.132661925261054
+    },
+    {
+      "id": "C21",
+      "pdf_minus_scan_center_mm": [
+        -50.62769420792712,
+        20.917271634347756
+      ],
+      "center_distance_mm": 54.778605982960784
+    },
+    {
+      "id": "C22",
+      "pdf_minus_scan_center_mm": [
+        -36.136589030158376,
+        4.140454729499865
+      ],
+      "center_distance_mm": 36.37301791302998
+    },
+    {
+      "id": "C23",
+      "pdf_minus_scan_center_mm": [
+        60.58111858163784,
+        -12.968963589734983
+      ],
+      "center_distance_mm": 61.95374036484268
+    },
+    {
+      "id": "C31",
+      "pdf_minus_scan_center_mm": [
+        26.746362486465003,
+        19.99623218225821
+      ],
+      "center_distance_mm": 33.39486798512851
+    },
+    {
+      "id": "C32",
+      "pdf_minus_scan_center_mm": [
+        19.6481340494945,
+        3.642807978451401
+      ],
+      "center_distance_mm": 19.982973292149854
+    },
+    {
+      "id": "C33",
+      "pdf_minus_scan_center_mm": [
+        9.765423673883333,
+        -16.00495447485173
+      ],
+      "center_distance_mm": 18.748921762931257
+    }
+  ],
+  "max_center_distance_mm": 61.95374036484268
+}

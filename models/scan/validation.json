@@ -1,0 +1,393 @@
+{
+  "source_mesh": {
+    "level": 5,
+    "vertices": 601159,
+    "triangles": 630957,
+    "scale": "metres retained from public mesh"
+  },
+  "height_m": 3.9924342590208557,
+  "independent_section_3_3m": {
+    "source_to_model": {
+      "samples": 23460,
+      "mean_m": 0.015587409443864001,
+      "rms_m": 0.05907863915501512,
+      "p50_m": 0.002728666578020622,
+      "p95_m": 0.048264122009277335,
+      "p99_m": 0.2593493769461649,
+      "sampled_max_m": 0.8813629150390625
+    },
+    "model_to_source": {
+      "samples": 22241,
+      "mean_m": 0.024127992191271576,
+      "rms_m": 0.08993784369188675,
+      "p50_m": 0.004623207815426312,
+      "p95_m": 0.13132103109755672,
+      "p99_m": 0.45413080847828147,
+      "sampled_max_m": 0.990375489316155
+    },
+    "sampling": "section endpoints plus dense 10 mm segment samples; model perimeter/column edge samples at 10 mm",
+    "excluded": "reflective glass, entrance bay gaps, west corner uncertainty, south notch gap",
+    "interpretation": "Includes nearby attached objects/display artefacts not modeled in the empty venue. Sampled errors relative to the published display mesh, not certified bounds."
+  },
+  "column_surface_samples": [
+    {
+      "id": "C11",
+      "samples": 704,
+      "mean_m": 0.006779213559902428,
+      "rms_m": 0.019021197648116803,
+      "p50_m": 0.0016230376783212819,
+      "p95_m": 0.020967325438451923,
+      "p99_m": 0.11374931369177395,
+      "sampled_max_m": 0.11546562228552391
+    },
+    {
+      "id": "C12",
+      "samples": 3032,
+      "mean_m": 0.015439195350349728,
+      "rms_m": 0.051934625571971746,
+      "p50_m": 0.0027992908924991955,
+      "p95_m": 0.06726610175941222,
+      "p99_m": 0.30662192813703054,
+      "sampled_max_m": 0.45781184933887936
+    },
+    {
+      "id": "C13",
+      "samples": 584,
+      "mean_m": 0.011670273507024962,
+      "rms_m": 0.04675291936292635,
+      "p50_m": 0.0017106415916039455,
+      "p95_m": 0.017476145837492754,
+      "p99_m": 0.3551664551631064,
+      "sampled_max_m": 0.37707850420295935
+    },
+    {
+      "id": "C21",
+      "samples": 2472,
+      "mean_m": 0.010322930085607782,
+      "rms_m": 0.052241678500439696,
+      "p50_m": 0.0016580698760204628,
+      "p95_m": 0.010949776453946571,
+      "p99_m": 0.31384791569109627,
+      "sampled_max_m": 0.5027918876289875
+    },
+    {
+      "id": "C22",
+      "samples": 4312,
+      "mean_m": 0.013006816545130055,
+      "rms_m": 0.04215897321614222,
+      "p50_m": 0.0032373993667484946,
+      "p95_m": 0.05835867874555478,
+      "p99_m": 0.23773577413473831,
+      "sampled_max_m": 0.39673243991818435
+    },
+    {
+      "id": "C23",
+      "samples": 2000,
+      "mean_m": 0.007818101528560715,
+      "rms_m": 0.04675520102933247,
+      "p50_m": 0.0007707357403052839,
+      "p95_m": 0.005427243433983074,
+      "p99_m": 0.30938024353372146,
+      "sampled_max_m": 0.453493405841576
+    },
+    {
+      "id": "C31",
+      "samples": 1400,
+      "mean_m": 0.008823309701155758,
+      "rms_m": 0.04193634625401017,
+      "p50_m": 0.001676809162972859,
+      "p95_m": 0.014118331255782376,
+      "p99_m": 0.3104560271870634,
+      "sampled_max_m": 0.34006191260020735
+    },
+    {
+      "id": "C32",
+      "samples": 3800,
+      "mean_m": 0.019463106657401096,
+      "rms_m": 0.04360020006137,
+      "p50_m": 0.004169064438706016,
+      "p95_m": 0.07833642861074885,
+      "p99_m": 0.2294898041847986,
+      "sampled_max_m": 0.407191049246452
+    },
+    {
+      "id": "C33",
+      "samples": 712,
+      "mean_m": 0.037104321097505305,
+      "rms_m": 0.09969821422607394,
+      "p50_m": 0.001888275146484375,
+      "p95_m": 0.3118928191157922,
+      "p99_m": 0.40421813631966697,
+      "sampled_max_m": 0.47604213190621913
+    }
+  ],
+  "column_36_supported_plane_fit": {
+    "max_rms_m": 0.0061141700736743725,
+    "area_weighted_rms_m": 0.0022444498660547352,
+    "method": "local observed column face regions, iterative plane inliers within 50 mm; broader near-column samples separately reported above"
+  },
+  "floor_fit": {
+    "rms_m": 0.005267331952469804,
+    "method": "robust area-weighted planar fit; near-horizontal faces, 40 mm iterative inlier limit"
+  },
+  "ceiling_fit": {
+    "rms_m": 0.006355717544926803
+  },
+  "glb": {
+    "parts": 41,
+    "triangles": 2612,
+    "bounds_blender_z_up_m": [
+      [
+        -23.447328567504883,
+        -15.188606262207031,
+        -0.11999999731779099
+      ],
+      [
+        26.08268928527832,
+        25.544940948486328,
+        3.99243426322937
+      ]
+    ],
+    "all_parts_closed_after_merging_export_normal_seams": true,
+    "parts_closed": [
+      {
+        "id": "C11",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 3.675940456333251
+      },
+      {
+        "id": "C12",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 5.3590080064608
+      },
+      {
+        "id": "C13",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 3.624584222033254
+      },
+      {
+        "id": "C21",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 4.236472810065227
+      },
+      {
+        "id": "C22",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 5.7320145449260425
+      },
+      {
+        "id": "C23",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 4.183886247925983
+      },
+      {
+        "id": "C31",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 3.6298791369966446
+      },
+      {
+        "id": "C32",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 5.397081746255836
+      },
+      {
+        "id": "C33",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 3.6035060164431627
+      },
+      {
+        "id": "Entry_zone_A_bay",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.25242838262905326
+      },
+      {
+        "id": "Entry_zone_A_floor_marker",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.03242396583524639
+      },
+      {
+        "id": "Entry_zone_A_header",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.029181622096777698
+      },
+      {
+        "id": "Entry_zone_A_jamb1",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762692764494716
+      },
+      {
+        "id": "Entry_zone_A_jamb2",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762585678882044
+      },
+      {
+        "id": "Entry_zone_B_bay",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.2542345537338709
+      },
+      {
+        "id": "Entry_zone_B_floor_marker",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.03265596522289845
+      },
+      {
+        "id": "Entry_zone_B_header",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.0293904219237812
+      },
+      {
+        "id": "Entry_zone_B_jamb1",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762585678882044
+      },
+      {
+        "id": "Entry_zone_B_jamb2",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762521427513963
+      },
+      {
+        "id": "Floor_envelope_scan_based",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 222.539192691466
+      },
+      {
+        "id": "Glass_1_bay",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.2497502432991041
+      },
+      {
+        "id": "Glass_1_header",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.028872019630384216
+      },
+      {
+        "id": "Glass_1_jamb1",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762350090533214
+      },
+      {
+        "id": "Glass_1_jamb2",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762521427513963
+      },
+      {
+        "id": "Glass_2_bay",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.25273976379010793
+      },
+      {
+        "id": "Glass_2_header",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.02921761887049475
+      },
+      {
+        "id": "Glass_2_jamb1",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762692764494716
+      },
+      {
+        "id": "Glass_2_jamb2",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762350090533214
+      },
+      {
+        "id": "Glass_3_bay",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.252490595009931
+      },
+      {
+        "id": "Glass_3_header",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.02918881407007608
+      },
+      {
+        "id": "Glass_3_jamb1",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762350090533214
+      },
+      {
+        "id": "Glass_3_jamb2",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.019762007416570526
+      },
+      {
+        "id": "South_notch_upper_projection",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 1.3039209328755372
+      },
+      {
+        "id": "Wall_component_01",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 106.55386046909825
+      },
+      {
+        "id": "Wall_component_02",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 1.2370379126282576
+      },
+      {
+        "id": "Wall_component_03",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 4.1950574940997685
+      },
+      {
+        "id": "Wall_component_04",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 1.214257553052344
+      },
+      {
+        "id": "Wall_component_05",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 1.1772481231829584
+      },
+      {
+        "id": "West_shutter_hood_1",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.6949997711158554
+      },
+      {
+        "id": "West_shutter_hood_2",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.4889828742574783
+      },
+      {
+        "id": "West_upper_cabinet",
+        "closed_after_merging_export_normal_seams": true,
+        "volume_m3": 0.4475499834597561
+      }
+    ]
+  },
+  "obj": {
+    "parts": 6,
+    "bounds_m": [
+      [
+        -23.447329,
+        -15.188606,
+        -0.12
+      ],
+      [
+        26.082689,
+        25.544941,
+        3.992434
+      ]
+    ]
+  },
+  "metrics": {
+    "outline_area_m2": 1854.4933451592265,
+    "net_outline_minus_columns_m2": 1844.614067000279,
+    "column_area_m2": 9.879278158947585,
+    "bounds": [
+      -23.26941680908203,
+      -15.038606643676758,
+      25.655780792236328,
+      25.394941329956055
+    ]
+  },
+  "limitations": [
+    "Public view mesh, not original dense LiDAR point cloud.",
+    "Door leaf clearance, glazing positions, wall backing thickness, and ceiling grids are not independently verified.",
+    "Small perimeter equipment above floor may be conservatively extruded in the layout envelope.",
+    "Ceiling bars, signs, electrical fixtures, display panels and small attached objects are not reproduced in detail.",
+    "The outline area is a model estimate, not an official usable or rentable floor area."
+  ]
+}

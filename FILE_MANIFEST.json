@@ -1,0 +1,210 @@
+{
+  "version": "v1.0.0",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 236,
+      "sha256": "4f6807c3371447213bd886acb944cf9c9b2d28ad2beafc8311e5f01c451f5bab"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 57,
+      "sha256": "085e3870aec85590658e6b752087d03b48adc5277d9a497eb7db17077a6fb60c"
+    },
+    {
+      "file": "docs/comparison/JRRF_official_PDF_comparison.pdf",
+      "bytes": 292107,
+      "sha256": "97e02190bffbdd00325994860a5d39efeed27104c85eeb2d3863b2429e99a587"
+    },
+    {
+      "file": "docs/comparison/JRRF_PDF_column_comparison_mm.csv",
+      "bytes": 2252,
+      "sha256": "3719752a353918d6e24066f3add92d1477fe6d6e2b848024c1dd84aaf526ca04"
+    },
+    {
+      "file": "docs/comparison/JRRF_PDF_comparison.json",
+      "bytes": 13318,
+      "sha256": "5a750566bdbb21a30a150dd573859e10d691e83e232db9347e4d3766a9065814"
+    },
+    {
+      "file": "docs/comparison/JRRF_PDF_scan_overlay.png",
+      "bytes": 141351,
+      "sha256": "2602ee48e881f6e4e6d833b817d22fee4a61a5f8bee0ef812cec6cb546025d1d"
+    },
+    {
+      "file": "docs/comparison/model_comparison_centres.json",
+      "bytes": 1773,
+      "sha256": "c3f8c9adc7e9c85d3b829b6327694598a5fa2b7b7d15b7a85df6e8981e7265cf"
+    },
+    {
+      "file": "docs/comparison/README.md",
+      "bytes": 1552,
+      "sha256": "7b6d0df8d5cca6b0f4f9844bc792780315048593648e671813492d7e3fd0487e"
+    },
+    {
+      "file": "docs/images/pdf-plan.png",
+      "bytes": 112321,
+      "sha256": "9de4b4ea5e555e99e85d074712dc2116edadafda8778bd796b848a46c15a9890"
+    },
+    {
+      "file": "docs/images/pdf-preview.png",
+      "bytes": 1117281,
+      "sha256": "dd7fa08d0284443d72d452adfdb49eed27ceb03be10323adddab24b2f748d34b"
+    },
+    {
+      "file": "docs/images/pdf-vs-scan-plan.png",
+      "bytes": 87707,
+      "sha256": "64994d01f20d20631ab45c9d26f6e4894656b1ec83f0332708c7f2041c9d99c8"
+    },
+    {
+      "file": "docs/images/scan-plan.png",
+      "bytes": 93345,
+      "sha256": "1a70fa0ec7105c0fc2d67428247b67f03722cbaa9acd2a34282f6d52a95b15d3"
+    },
+    {
+      "file": "docs/images/scan-preview.png",
+      "bytes": 1109133,
+      "sha256": "8b5e292d6c9b9d2685827c3dfcaee155e53b93590ef162f22d970ea890cf27ad"
+    },
+    {
+      "file": "docs/pdf-model.txt",
+      "bytes": 5215,
+      "sha256": "42c7d7cf73c4065ed28580001d97b3df0703f4f5bb497f9377009fbfb5b78c2b"
+    },
+    {
+      "file": "docs/scan-model.txt",
+      "bytes": 6002,
+      "sha256": "0cdd5d81618d8cb36b201e8765d247558e8d50aaf0aebab6f3027502a8d68a46"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 3718,
+      "sha256": "04d23ee8cbb4d2d8679eca3e6291f3862666062ffe01b0becada6cad48d0f208"
+    },
+    {
+      "file": "models/pdf/export_validation.json",
+      "bytes": 11597,
+      "sha256": "1d07eae34e770494f2867b4f87ed9ac93070ffcc014012e5ded01cd7d0b23cd3"
+    },
+    {
+      "file": "models/pdf/JRRF_PDF_columns_metres.csv",
+      "bytes": 549,
+      "sha256": "1780d38e1c6cbfc9049aa0b0b5ee643b3043e1466ef49817f85f8440a2dc229e"
+    },
+    {
+      "file": "models/pdf/JRRF_PDF_plan_mm.dxf",
+      "bytes": 27785,
+      "sha256": "437e540de10d2522e949028adce756e887e673f29d21ec5625c6ef7ee8565bcf"
+    },
+    {
+      "file": "models/pdf/JRRF_PDF_venue.blend",
+      "bytes": 315800,
+      "sha256": "bb339a14d2914cef722a478a63a4c43a86a011ace9fd72dd849053fd02fea226"
+    },
+    {
+      "file": "models/pdf/JRRF_PDF_venue.glb",
+      "bytes": 234136,
+      "sha256": "c0d716397e7af93931b63e473a4d812f183244c074c1755823192eaaa0a13a2f"
+    },
+    {
+      "file": "models/pdf/JRRF_PDF_venue.json",
+      "bytes": 75078,
+      "sha256": "3cdb72d08b9bd1be40d5e1c27d65848e97434893d6f8132d3335c9986bd4eccb"
+    },
+    {
+      "file": "models/pdf/JRRF_PDF_venue.mtl",
+      "bytes": 1543,
+      "sha256": "2574cc787e7aed9dfd91da86e0d80b5dda403ffa5a165ee76d025d3d86a3d1ca"
+    },
+    {
+      "file": "models/pdf/JRRF_PDF_venue.obj",
+      "bytes": 189569,
+      "sha256": "2ec81d9424db39bed87f6b9fd7d950513e0e029572fb19f73115c68044fce966"
+    },
+    {
+      "file": "models/pdf/public_export_validation.json",
+      "bytes": 11556,
+      "sha256": "08c40bea7a8ac85f07b6bd2fc81b819777d470754d8e87ec6e5b0fc8365d475e"
+    },
+    {
+      "file": "models/pdf/public_native_validation.json",
+      "bytes": 12756,
+      "sha256": "0e5dd9bc9b32d060f01924528c96066316998185d40a47a073ee908272d95ad3"
+    },
+    {
+      "file": "models/scan/JRRF_columns_metres.csv",
+      "bytes": 940,
+      "sha256": "0d2ca9c029ffc5cbc17bf8e365570841c71672b917331667420db57e1420877a"
+    },
+    {
+      "file": "models/scan/JRRF_venue_layout.blend",
+      "bytes": 181599,
+      "sha256": "0061cc94a06df760754511ff35f357c81cfaf003e3729167c9cafc5b7d2f85dc"
+    },
+    {
+      "file": "models/scan/JRRF_venue_layout.glb",
+      "bytes": 138260,
+      "sha256": "17e8bea4e72b43c8c999c43bed457ec64dd7e57f426fd7be7782d9819d0fc6f9"
+    },
+    {
+      "file": "models/scan/JRRF_venue_layout.json",
+      "bytes": 22446,
+      "sha256": "48f6baa5f179a29e321d0310caf6946b83536752417da28860315ab67a010651"
+    },
+    {
+      "file": "models/scan/JRRF_venue_layout.mtl",
+      "bytes": 1348,
+      "sha256": "8c33f53327650a1de030a565c881bb918a446ab7d41930ac88c4ad5c074c8f4b"
+    },
+    {
+      "file": "models/scan/JRRF_venue_layout.obj",
+      "bytes": 111224,
+      "sha256": "df313daa59529cb1b61215c0d34c8060855b5957f22083cde566f92f347c8990"
+    },
+    {
+      "file": "models/scan/JRRF_venue_plan_mm.dxf",
+      "bytes": 6416,
+      "sha256": "ebbd2cbb5db98f1996ef2b862e9c4ad5a6d9656429d0572b14992bddb860f43c"
+    },
+    {
+      "file": "models/scan/public_export_validation.json",
+      "bytes": 6541,
+      "sha256": "12fa9385c1ec4c991a6706f988a47c60a2d267f9f63466bf46ca89f1346a5445"
+    },
+    {
+      "file": "models/scan/public_native_validation.json",
+      "bytes": 6528,
+      "sha256": "6b7a47e6ecd25634345b01280313c8fb21281d22e7b3e0221aa176e085447d17"
+    },
+    {
+      "file": "models/scan/validation.json",
+      "bytes": 11647,
+      "sha256": "2b13f2a10878ecf205b4b0e70fe7aac88abdb0e0de9c6fb52ea9c8628d64e9c8"
+    },
+    {
+      "file": "README.md",
+      "bytes": 9514,
+      "sha256": "e326d67f1965ec3b2c17994d5adbc205b6165c7c242342761d01896b8e92fce3"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2006,
+      "sha256": "3d4ff480482c567748acb8f7e195b6053b043f017eb5a13f80a1cb162eb013f0"
+    },
+    {
+      "file": "tools/README.md",
+      "bytes": 606,
+      "sha256": "b22b981dd203e86f29db9c095e423675abf49146ac16812a1ce9a90eee932f65"
+    },
+    {
+      "file": "tools/verify_exports.py",
+      "bytes": 2584,
+      "sha256": "603b04ab3df8d9a2ab904949389924d804d85f8b525bc7cb3dc161f5ac50f64b"
+    },
+    {
+      "file": "tools/verify_native.py",
+      "bytes": 4473,
+      "sha256": "c70e45326c0fae077d1bcceb26a817ea9d7df486dc0767735bda4d4be3861a58"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "official_pdf": {
+    "url": "https://www.trc-event.jp/download/pdf/setsubi_e.pdf",
+    "edition": "2025/12",
+    "page": 1,
+    "page_size_points": [
+      0.0,
+      0.0,
+      1190.550048828125,
+      841.8889770507812
+    ],
+    "declared_scale": "1/250",
+    "sha256": "9014be1edf89f231700ca8c02cbfdf8042a275108c6c4d9ba137f4719d8a8687",
+    "current_download_sha256": "9014be1edf89f231700ca8c02cbfdf8042a275108c6c4d9ba137f4719d8a8687",
+    "same_as_current_download": true
+  },
+  "scan_source": "https://realsee.ai/VbOOJVjA",
+  "scan_scale_changed": false,
+  "pdf_scale_evidence": {
+    "nominal_metres_per_pdf_point": 0.08819444444444444,
+    "dimension_calibrated_metres_per_point": 0.08015502600238668,
+    "effective_paper_scale_denominator": 227.21109732960005,
+    "nominal_trace_excess_percent": 10.02983698342057,
+    "scale_bar_10_m_points": 113.38800048828125,
+    "scale_bar_1_250_metres": 10.000191709730359,
+    "width_dimension_label_m": 47.52,
+    "width_dimension_line_points": 590.9910430908203,
+    "width_line_1_250_metres": 52.12212671703762,
+    "width_line_dimension_calibrated_metres": 47.37090242612233,
+    "independent_reference_measurements": [
+      {
+        "id": "ceiling_grid_x_1",
+        "pdf_points": 24.95220947265625,
+        "label_m": 2.0,
+        "basis": "2,000 x 1,666 grid note, horizontal pitch",
+        "nominal_1_250_m": 2.200646252102322,
+        "nominal_excess_percent": 10.0323126051161
+      },
+      {
+        "id": "ceiling_grid_x_2",
+        "pdf_points": 24.95208740234375,
+        "label_m": 2.0,
+        "basis": "2,000 x 1,666 grid note, horizontal pitch",
+        "nominal_1_250_m": 2.200635486178928,
+        "nominal_excess_percent": 10.031774308946396
+      },
+      {
+        "id": "ceiling_grid_x_3",
+        "pdf_points": 24.953125,
+        "label_m": 2.0,
+        "basis": "2,000 x 1,666 grid note, horizontal pitch",
+        "nominal_1_250_m": 2.2007269965277776,
+        "nominal_excess_percent": 10.036349826388879
+      },
+      {
+        "id": "ceiling_grid_x_4",
+        "pdf_points": 24.952178955078125,
+        "label_m": 2.0,
+        "basis": "2,000 x 1,666 grid note, horizontal pitch",
+        "nominal_1_250_m": 2.200643560621473,
+        "nominal_excess_percent": 10.032178031073657
+      },
+      {
+        "id": "C11_width",
+        "pdf_points": 10.727996826171875,
+        "label_m": 0.86,
+        "basis": "860 mm outside column dimension",
+        "nominal_1_250_m": 0.9461497200859916,
+        "nominal_excess_percent": 10.017409312324599
+      },
+      {
+        "id": "C11_depth",
+        "pdf_points": 13.0980224609375,
+        "label_m": 1.05,
+        "basis": "1,050 mm outside column dimension",
+        "nominal_1_250_m": 1.1551728142632378,
+        "nominal_excess_percent": 10.01645850126074
+      },
+      {
+        "id": "C13_width",
+        "pdf_points": 10.72900390625,
+        "label_m": 0.86,
+        "basis": "860 mm outside column dimension",
+        "nominal_1_250_m": 0.946238538953993,
+        "nominal_excess_percent": 10.027737087673616
+      },
+      {
+        "id": "C13_depth",
+        "pdf_points": 13.0980224609375,
+        "label_m": 1.05,
+        "basis": "1,050 mm outside column dimension",
+        "nominal_1_250_m": 1.1551728142632378,
+        "nominal_excess_percent": 10.01645850126074
+      },
+      {
+        "id": "C31_width",
+        "pdf_points": 10.727996826171875,
+        "label_m": 0.86,
+        "basis": "860 mm outside column dimension",
+        "nominal_1_250_m": 0.9461497200859916,
+        "nominal_excess_percent": 10.017409312324599
+      },
+      {
+        "id": "C31_depth",
+        "pdf_points": 13.0989990234375,
+        "label_m": 1.05,
+        "basis": "1,050 mm outside column dimension",
+        "nominal_1_250_m": 1.1552589416503904,
+        "nominal_excess_percent": 10.024661109560995
+      },
+      {
+        "id": "C33_width",
+        "pdf_points": 10.72900390625,
+        "label_m": 0.86,
+        "basis": "860 mm outside column dimension",
+        "nominal_1_250_m": 0.946238538953993,
+        "nominal_excess_percent": 10.027737087673616
+      },
+      {
+        "id": "C33_depth",
+        "pdf_points": 13.100006103515625,
+        "label_m": 1.05,
+        "basis": "1,050 mm outside column dimension",
+        "nominal_1_250_m": 1.1553477605183917,
+        "nominal_excess_percent": 10.033120049370625
+      }
+    ],
+    "vertical_grid_1666_label_m": 1.666,
+    "vertical_grid_mean_pitch_points": 20.110824584960938,
+    "vertical_grid_dimension_calibrated_m": 1.6119836675369812,
+    "note": "The vertical grid and some dimension endpoints are locally schematic/inconsistent. A single scale does not make every detail exact."
+  },
+  "registration": {
+    "method": "PDF calibrated from its own 2 m horizontal grid and four outer 860 x 1050 mm columns; rigid rotation and translation least squares using nine filled column shape centres; scan scale fixed.",
+    "rotation": [
+      [
+        0.9999999020592529,
+        0.0004425850019366833
+      ],
+      [
+        -0.000442585001936683,
+        0.9999999020592532
+      ]
+    ],
+    "translation_m": [
+      -39.38147962612986,
+      35.06996344384356
+    ],
+    "nominal_translation_m": [
+      -43.50406756354099,
+      38.06845660201973
+    ],
+    "independent_similarity_fit_m_per_point": 0.08010239336064744,
+    "center_rms_mm": 54.46618022322862,
+    "center_max_mm": 122.3157366747737
+  },
+  "major_dimensions": {
+    "scan_wall_to_wall_at_Y_7_5_m": 47.526765525341034,
+    "pdf_width_label_m": 47.52,
+    "width_scan_minus_label_mm": 6.765525341030809,
+    "scan_outline_north_south_span_m": 40.43354797363281,
+    "pdf_overall_label_m": 40.38,
+    "span_scan_minus_label_mm": 53.54797363280994,
+    "scan_ceiling_height_m": 3.9924342590208557,
+    "pdf_ceiling_height_label_m": 4,
+    "height_scan_minus_label_mm": -7.565740979144309,
+    "note": "Width is one representative solid-wall slice excluding glazing bays. N-S uses reconstructed outline extremes; endpoints differ locally from the drawing."
+  },
+  "columns": [
+    {
+      "id": "C11",
+      "pdf_width_label_m": 0.86,
+      "scan_width_m": 0.8609132345985095,
+      "width_scan_minus_label_mm": 0.9132345985095602,
+      "pdf_depth_label_m": 1.05,
+      "scan_depth_m": 1.069476513346797,
+      "depth_scan_minus_label_mm": 19.4765133467969,
+      "pdf_filled_shape_center_x_m": -10.211511650925878,
+      "pdf_filled_shape_center_y_m": -4.839044484108676,
+      "scan_center_x_m": -10.226238590524451,
+      "scan_center_y_m": -4.847274477561218,
+      "center_dx_pdf_minus_scan_mm": 14.726939598572741,
+      "center_dy_pdf_minus_scan_mm": 8.229993452541606,
+      "center_distance_mm": 16.87055251522272
+    },
+    {
+      "id": "C12",
+      "pdf_width_label_m": 1.12,
+      "scan_width_m": 1.1224142662230008,
+      "width_scan_minus_label_mm": 2.4142662230006717,
+      "pdf_depth_label_m": 1.19,
+      "scan_depth_m": 1.1958962073626518,
+      "depth_scan_minus_label_mm": 5.89620736265184,
+      "pdf_filled_shape_center_x_m": 1.648674203403992,
+      "pdf_filled_shape_center_y_m": -4.833714620677512,
+      "scan_center_x_m": 1.6399729276683228,
+      "scan_center_y_m": -4.827894759830691,
+      "center_dx_pdf_minus_scan_mm": 8.701275735669256,
+      "center_dy_pdf_minus_scan_mm": -5.819860846820291,
+      "center_distance_mm": 10.468188941001129
+    },
+    {
+      "id": "C13",
+      "pdf_width_label_m": 0.86,
+      "scan_width_m": 0.8566162876288281,
+      "width_scan_minus_label_mm": -3.383712371171854,
+      "pdf_depth_label_m": 1.05,
+      "scan_depth_m": 1.0598238677495146,
+      "depth_scan_minus_label_mm": 9.823867749514603,
+      "pdf_filled_shape_center_x_m": 13.78462661017057,
+      "pdf_filled_shape_center_y_m": -4.828424152169752,
+      "scan_center_x_m": 13.781522657862459,
+      "scan_center_y_m": -4.817412792251822,
+      "center_dx_pdf_minus_scan_mm": 3.103952308110891,
+      "center_dy_pdf_minus_scan_mm": -11.011359917930008,
+      "center_distance_mm": 11.440479324452383
+    },
+    {
+      "id": "C21",
+      "pdf_width_label_m": 0.99,
+      "scan_width_m": 0.9962710757096715,
+      "width_scan_minus_label_mm": 6.271075709671559,
+      "pdf_depth_label_m": 1.06,
+      "scan_depth_m": 1.0650968111642953,
+      "depth_scan_minus_label_mm": 5.0968111642952785,
+      "pdf_filled_shape_center_x_m": -10.27988810632958,
+      "pdf_filled_shape_center_y_m": 5.169266289594965,
+      "scan_center_x_m": -10.24261222597442,
+      "scan_center_y_m": 5.156647768997752,
+      "center_dx_pdf_minus_scan_mm": -37.27588035515872,
+      "center_dy_pdf_minus_scan_mm": 12.618520597213134,
+      "center_distance_mm": 39.35375863007751
+    },
+    {
+      "id": "C22",
+      "pdf_width_label_m": 1.2,
+      "scan_width_m": 1.1931409680263998,
+      "width_scan_minus_label_mm": -6.85903197360016,
+      "pdf_depth_label_m": 1.2,
+      "scan_depth_m": 1.2033106450811326,
+      "depth_scan_minus_label_mm": 3.310645081132657,
+      "pdf_filled_shape_center_x_m": 1.658906655134679,
+      "pdf_filled_shape_center_y_m": 5.208136912664791,
+      "scan_center_x_m": 1.6678966688478112,
+      "scan_center_y_m": 5.1734245859026,
+      "center_dx_pdf_minus_scan_mm": -8.990013713132239,
+      "center_dy_pdf_minus_scan_mm": 34.71232676219138,
+      "center_distance_mm": 35.857579056699485
+    },
+    {
+      "id": "C23",
+      "pdf_width_label_m": 0.99,
+      "scan_width_m": 0.9920624819628863,
+      "width_scan_minus_label_mm": 2.0624819628862756,
+      "pdf_depth_label_m": 1.06,
+      "scan_depth_m": 1.0563384623705874,
+      "depth_scan_minus_label_mm": -3.661537629412681,
+      "pdf_filled_shape_center_x_m": 13.84399966108355,
+      "pdf_filled_shape_center_y_m": 5.179943161554927,
+      "scan_center_x_m": 13.766178961236015,
+      "scan_center_y_m": 5.190534004221835,
+      "center_dx_pdf_minus_scan_mm": 77.82069984753548,
+      "center_dy_pdf_minus_scan_mm": -10.590842666907463,
+      "center_distance_mm": 78.53806257576893
+    },
+    {
+      "id": "C31",
+      "pdf_width_label_m": 0.86,
+      "scan_width_m": 0.8615828601043614,
+      "width_scan_minus_label_mm": 1.5828601043613721,
+      "pdf_depth_label_m": 1.05,
+      "scan_depth_m": 1.0552549153217807,
+      "depth_scan_minus_label_mm": 5.254915321780684,
+      "pdf_filled_shape_center_x_m": -10.220372068206885,
+      "pdf_filled_shape_center_y_m": 15.180649754150657,
+      "scan_center_x_m": -10.254986282668813,
+      "scan_center_y_m": 15.16256880844984,
+      "center_dx_pdf_minus_scan_mm": 34.61421446192858,
+      "center_dy_pdf_minus_scan_mm": 18.080945700816642,
+      "center_distance_mm": 39.05207344370162
+    },
+    {
+      "id": "C32",
+      "pdf_width_label_m": 1.12,
+      "scan_width_m": 1.1272665142510934,
+      "width_scan_minus_label_mm": 7.266514251093259,
+      "pdf_depth_label_m": 1.19,
+      "scan_depth_m": 1.199208946342635,
+      "depth_scan_minus_label_mm": 9.208946342635027,
+      "pdf_filled_shape_center_x_m": 1.4952563922779731,
+      "pdf_filled_shape_center_y_m": 15.1427847305707,
+      "scan_center_x_m": 1.6121119457681583,
+      "scan_center_y_m": 15.178922232653647,
+      "center_dx_pdf_minus_scan_mm": -116.85555349018517,
+      "center_dy_pdf_minus_scan_mm": -36.13750208294775,
+      "center_distance_mm": 122.3157366747737
+    },
+    {
+      "id": "C33",
+      "pdf_width_label_m": 0.86,
+      "scan_width_m": 0.8546315524686197,
+      "width_scan_minus_label_mm": -5.368447531380327,
+      "pdf_depth_label_m": 1.05,
+      "scan_depth_m": 1.056107223459266,
+      "depth_scan_minus_label_mm": 6.107223459266065,
+      "pdf_filled_shape_center_x_m": 13.776149021750435,
+      "pdf_filled_shape_center_y_m": 15.188487774108879,
+      "scan_center_x_m": 13.751994656143772,
+      "scan_center_y_m": 15.19856999510695,
+      "center_dx_pdf_minus_scan_mm": 24.15436560666251,
+      "center_dy_pdf_minus_scan_mm": -10.082220998071989,
+      "center_distance_mm": 26.17412000649276
+    }
+  ],
+  "area_context": {
+    "official_site_m2": 1984,
+    "model_outline_m2": 1854.4933451592265,
+    "arithmetic_difference_m2": -129.50665484077354,
+    "comparable_definition_confirmed": false,
+    "note": "Official rentable area, high-section model envelope, and real walkable floor are different definitions; this difference is not proof of PDF error."
+  },
+  "model_review_SW": {
+    "visible_floor_triangle_area_outside_v1_envelope_m2": 2.3936683810397694,
+    "region_scan_coordinates_m": [
+      -21,
+      -14,
+      -15,
+      -9
+    ],
+    "note": "Lower scan sections contain floor/geometry outside the v1 upper-section conservative envelope. Some may belong to adjoining service spaces. PDF also annotates a lowered ceiling in this general corner. Treat v1 local floor/wall boundary as provisional; do not assign this entire discrepancy to the PDF."
+  },
+  "limitations": [
+    "Derived model v1, not an independently surveyed reference.",
+    "Column positions compared at filled PDF shape bounding centres, not restored CAD reference axes; printed shapes and dimension extension lines sometimes disagree.",
+    "Glass, entrance leaf widths, southwest low ceiling/service space boundary and local wall fixtures remain provisional.",
+    "No claim that the entire official PDF is wrong; numerical dimensions mostly agree while paper scale and local drawing geometry differ."
+  ]
+}

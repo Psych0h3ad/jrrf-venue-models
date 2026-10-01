@@ -1,0 +1,3 @@
+179b16f983c9edc3dc9e0f1457b156b8cf31650fae3d818b22c70ee795ad5342  JRRF_scan_model_v1.0.0.zip
+2acc05ef661cc73549a427332e063c74f00cf51a0a02ceb0cc4782b6b7d768ec  JRRF_PDF_dimensioned_model_v1.0.0.zip
+b69743f3449be845bbf2fa90e89cb1ee3c2b162c66c2329690c097f14f9b285e  JRRF_comparison_v1.0.0.zip

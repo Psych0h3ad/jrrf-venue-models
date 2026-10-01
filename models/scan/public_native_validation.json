@@ -1,0 +1,306 @@
+{
+  "file": "JRRF_venue_layout.blend",
+  "passed": true,
+  "checks": {
+    "model_part_count": true,
+    "all_model_parts_closed": true,
+    "all_model_parts_positive_volume": true,
+    "nine_column_dimensions_match_metadata": true,
+    "metric_scale_1": true,
+    "no_raw_scan_reference": true,
+    "no_original_pdf_image": true,
+    "no_external_libraries": true,
+    "required_credit_embedded": true
+  },
+  "mesh_parts": [
+    {
+      "id": "Floor_envelope_scan_based",
+      "closed": true,
+      "volume_m3": 222.539192691466
+    },
+    {
+      "id": "Wall_component_01",
+      "closed": true,
+      "volume_m3": 106.5538604690984
+    },
+    {
+      "id": "Wall_component_02",
+      "closed": true,
+      "volume_m3": 1.2370379126282636
+    },
+    {
+      "id": "Wall_component_03",
+      "closed": true,
+      "volume_m3": 4.195057494099718
+    },
+    {
+      "id": "Wall_component_04",
+      "closed": true,
+      "volume_m3": 1.2142575530523547
+    },
+    {
+      "id": "Wall_component_05",
+      "closed": true,
+      "volume_m3": 1.1772481231829595
+    },
+    {
+      "id": "C11",
+      "closed": true,
+      "volume_m3": 3.6759404563332474
+    },
+    {
+      "id": "C12",
+      "closed": true,
+      "volume_m3": 5.359008006460799
+    },
+    {
+      "id": "C13",
+      "closed": true,
+      "volume_m3": 3.624584222033249
+    },
+    {
+      "id": "C21",
+      "closed": true,
+      "volume_m3": 4.23647281006523
+    },
+    {
+      "id": "C22",
+      "closed": true,
+      "volume_m3": 5.732014544926043
+    },
+    {
+      "id": "C23",
+      "closed": true,
+      "volume_m3": 4.183886247925987
+    },
+    {
+      "id": "C31",
+      "closed": true,
+      "volume_m3": 3.6298791369966423
+    },
+    {
+      "id": "C32",
+      "closed": true,
+      "volume_m3": 5.397081746255838
+    },
+    {
+      "id": "C33",
+      "closed": true,
+      "volume_m3": 3.6035060164431485
+    },
+    {
+      "id": "Glass_1_bay",
+      "closed": true,
+      "volume_m3": 0.24975024329904727
+    },
+    {
+      "id": "Glass_1_jamb1",
+      "closed": true,
+      "volume_m3": 0.01976235009053262
+    },
+    {
+      "id": "Glass_1_jamb2",
+      "closed": true,
+      "volume_m3": 0.019762521427514335
+    },
+    {
+      "id": "Glass_1_header",
+      "closed": true,
+      "volume_m3": 0.028872019630358903
+    },
+    {
+      "id": "Glass_2_bay",
+      "closed": true,
+      "volume_m3": 0.2527397637900606
+    },
+    {
+      "id": "Glass_2_jamb1",
+      "closed": true,
+      "volume_m3": 0.01976269276449516
+    },
+    {
+      "id": "Glass_2_jamb2",
+      "closed": true,
+      "volume_m3": 0.0197623500905324
+    },
+    {
+      "id": "Glass_2_header",
+      "closed": true,
+      "volume_m3": 0.029217618870513107
+    },
+    {
+      "id": "Glass_3_bay",
+      "closed": true,
+      "volume_m3": 0.25249059500987414
+    },
+    {
+      "id": "Glass_3_jamb1",
+      "closed": true,
+      "volume_m3": 0.0197623500905324
+    },
+    {
+      "id": "Glass_3_jamb2",
+      "closed": true,
+      "volume_m3": 0.019762007416570526
+    },
+    {
+      "id": "Glass_3_header",
+      "closed": true,
+      "volume_m3": 0.02918881407008911
+    },
+    {
+      "id": "Entry_zone_A_bay",
+      "closed": true,
+      "volume_m3": 0.2524283826290059
+    },
+    {
+      "id": "Entry_zone_A_jamb1",
+      "closed": true,
+      "volume_m3": 0.01976269276449516
+    },
+    {
+      "id": "Entry_zone_A_jamb2",
+      "closed": true,
+      "volume_m3": 0.019762585678881894
+    },
+    {
+      "id": "Entry_zone_A_header",
+      "closed": true,
+      "volume_m3": 0.02918162209679398
+    },
+    {
+      "id": "Entry_zone_A_floor_marker",
+      "closed": true,
+      "volume_m3": 0.03242396583524643
+    },
+    {
+      "id": "Entry_zone_B_bay",
+      "closed": true,
+      "volume_m3": 0.2542345537338804
+    },
+    {
+      "id": "Entry_zone_B_jamb1",
+      "closed": true,
+      "volume_m3": 0.019762585678881894
+    },
+    {
+      "id": "Entry_zone_B_jamb2",
+      "closed": true,
+      "volume_m3": 0.019762521427514335
+    },
+    {
+      "id": "Entry_zone_B_header",
+      "closed": true,
+      "volume_m3": 0.029390421923772614
+    },
+    {
+      "id": "Entry_zone_B_floor_marker",
+      "closed": true,
+      "volume_m3": 0.03265596522289865
+    },
+    {
+      "id": "West_shutter_hood_1",
+      "closed": true,
+      "volume_m3": 0.6949997711158531
+    },
+    {
+      "id": "West_shutter_hood_2",
+      "closed": true,
+      "volume_m3": 0.4889828742574842
+    },
+    {
+      "id": "West_upper_cabinet",
+      "closed": true,
+      "volume_m3": 0.4475499834597638
+    },
+    {
+      "id": "South_notch_upper_projection",
+      "closed": true,
+      "volume_m3": 1.3039209328755392
+    }
+  ],
+  "column_measurements": [
+    {
+      "id": "C11",
+      "dimensions_m": [
+        0.8609132766723633,
+        1.06947660446167,
+        3.99243426322937
+      ],
+      "max_size_error_m": 9.111487297985832e-08
+    },
+    {
+      "id": "C12",
+      "dimensions_m": [
+        1.122414231300354,
+        1.1958961486816406,
+        3.99243426322937
+      ],
+      "max_size_error_m": 5.868101116135449e-08
+    },
+    {
+      "id": "C13",
+      "dimensions_m": [
+        0.8566169738769531,
+        1.059823989868164,
+        3.99243426322937
+      ],
+      "max_size_error_m": 6.862481249925168e-07
+    },
+    {
+      "id": "C21",
+      "dimensions_m": [
+        0.9962711334228516,
+        1.0650968551635742,
+        3.99243426322937
+      ],
+      "max_size_error_m": 5.771318001279724e-08
+    },
+    {
+      "id": "C22",
+      "dimensions_m": [
+        1.1931411027908325,
+        1.203310489654541,
+        3.99243426322937
+      ],
+      "max_size_error_m": 1.5542659159706318e-07
+    },
+    {
+      "id": "C23",
+      "dimensions_m": [
+        0.9920625686645508,
+        1.0563383102416992,
+        3.99243426322937
+      ],
+      "max_size_error_m": 1.521288881534133e-07
+    },
+    {
+      "id": "C31",
+      "dimensions_m": [
+        0.8615827560424805,
+        1.0552549362182617,
+        3.99243426322937
+      ],
+      "max_size_error_m": 1.0406188089007173e-07
+    },
+    {
+      "id": "C32",
+      "dimensions_m": [
+        1.127266526222229,
+        1.1992082595825195,
+        3.99243426322937
+      ],
+      "max_size_error_m": 6.867601154425529e-07
+    },
+    {
+      "id": "C33",
+      "dimensions_m": [
+        0.8546323776245117,
+        1.056107521057129,
+        3.99243426322937
+      ],
+      "max_size_error_m": 8.251558920591151e-07
+    }
+  ],
+  "interpretation": "Topology and model-dimension checks; no as-built accuracy certification."
+}
