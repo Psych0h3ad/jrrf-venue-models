@@ -8,6 +8,8 @@ LICENSE text eol=lf
 *.obj text eol=lf
 *.mtl text eol=lf
 *.dxf text eol=lf
+*.step text eol=lf -diff
+*.FCStd binary
 *.blend binary
 *.glb binary
 *.png binary

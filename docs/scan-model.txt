@@ -80,8 +80,17 @@ JRRF 会場モデル — 配置検討用 v1
 扉の有効開口や橙色部分など、未確定の部分はモデル内でも分かる形で残しています。
 
 
-公開配布版 v1.0.0
+公開配布版 v1.1.0
 Map model by https://github.com/Psych0h3ad
 利用条件: https://github.com/Psych0h3ad/jrrf-venue-models/blob/main/LICENSE
 寸法・精度は無保証。詳細はLICENSEをご覧ください。
 問題の連絡・テイクダウン、会場スキャン・モデリング案件: info@psych0h3ad.tech
+
+CAD追加ファイル v1.1.0
+JRRF_venue_layout.step: AP214、メートル。通常のBREPソリッド。
+JRRF_venue_layout.FCStd: 複数のBREPソリッド。内部単位はミリメートル。
+いずれも同じ実寸と原点を保持。元の設計履歴を復元したファイルではありません。
+41ソリッド、776面。全て解析的な平面。
+元の再構築済みGLBとの双方向標本最大差: 0.0010667 mm。
+変換前後の一致度であり、会場の実測精度や連続面全体の誤差上限ではありません。
+step_validation.json: STEP再読み込み、形状・寸法・体積と双方向の比較。

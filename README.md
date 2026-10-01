@@ -14,16 +14,19 @@
 
 | 配布データ | 作り方 | 主な内容 |
 | --- | --- | --- |
-| [スキャン由来版 ZIP](https://github.com/Psych0h3ad/jrrf-venue-models/releases/download/v1.0.0/JRRF_scan_model_v1.0.0.zip) | 公開ビューア用メッシュの縮尺を維持 | 床・壁・9本の柱・入口区画・上部張り出し |
-| [PDF記載寸法版 ZIP](https://github.com/Psych0h3ad/jrrf-venue-models/releases/download/v1.0.0/JRRF_PDF_dimensioned_model_v1.0.0.zip) | 図面の寸法列から位置・形状を再構築 | 床・壁・9本の柱・開口・低い天井・設備配置範囲 |
-| [比較資料 ZIP](https://github.com/Psych0h3ad/jrrf-venue-models/releases/download/v1.0.0/JRRF_comparison_v1.0.0.zip) | PDFの縮尺・記載寸法とスキャン由来モデルを比較 | 日本語PDFレポート・比較図・CSV・数値JSON |
+| [スキャン由来版 ZIP](https://github.com/Psych0h3ad/jrrf-venue-models/releases/download/v1.1.0/JRRF_scan_model_v1.1.0.zip) | 公開ビューア用メッシュの縮尺を維持 | 床・壁・9本の柱・入口区画・上部張り出し |
+| [PDF記載寸法版 ZIP](https://github.com/Psych0h3ad/jrrf-venue-models/releases/download/v1.1.0/JRRF_PDF_dimensioned_model_v1.1.0.zip) | 図面の寸法列から位置・形状を再構築 | 床・壁・9本の柱・開口・低い天井・設備配置範囲 |
+| [比較資料 ZIP](https://github.com/Psych0h3ad/jrrf-venue-models/releases/download/v1.1.0/JRRF_comparison_v1.1.0.zip) | PDFの縮尺・記載寸法とスキャン由来モデルを比較 | 日本語PDFレポート・比較図・CSV・数値JSON |
 
-各モデルは **Blender / GLB / OBJ+MTL / DXF / JSON / CSV** で配布しています。個別ファイルは [models/scan](models/scan) と [models/pdf](models/pdf) からも取得できます。標準のポリゴンメッシュで、STEPのBREPや寸法履歴付きCADではありません。
+各モデルは **STEP / FCStd / Blender / GLB / OBJ+MTL / DXF / JSON / CSV** で配布しています。個別ファイルは [models/scan](models/scan) と [models/pdf](models/pdf) からも取得できます。
+
+STEP単体は配布ページ、または [スキャン版STEP](models/scan/JRRF_venue_layout.step) / [PDF版STEP](models/pdf/JRRF_PDF_venue.step) から取得できます。STEP・FCStdは通常のBREPソリッド、Blender・GLB・OBJはポリゴンメッシュです。ネイティブCADファイルは形状を保持した複数ソリッドのモデルで、元の設計履歴を復元したものではありません。
 
 ## 単位と使い方
 
 - Blender・OBJ・JSON・CSVは **メートル**。GLBはメートル / Y-up、Blender・OBJはZ-upです。
 - DXFは **ミリメートル**。PNGの見た目や印刷倍率から寸法を取らず、DXFまたは3Dモデルを使ってください。
+- STEP（AP214）のファイル内の長さ単位は **メートル**。CADでの表示単位がmmでも、47.520mが47,520mmになる同じ実寸です。FCStdの内部単位はミリメートルです。物理的な座標と原点は同じです。
 - 両モデルは比較しやすい同じ座標に置いてあります。PDF版は平行移動のみで合わせており、スキャンに合わせた寸法変更や回転はしていません。
 - Blenderでは床・壁・柱などをコレクションで切り替えられます。PDF版の `10_Scan_model_reference_hidden` には、比較用の軽量なスキャン由来モデルを非表示で収録しています。
 
@@ -57,6 +60,10 @@
 PDF版は、記載寸法がない壁厚・凹凸・柱の面取りなどに図形からの推定を含みます。扉記号のW/Hの適用や南西のアクセス区画の解釈は暫定です。薄緑の床面は図面に示された防災設備配置範囲です。設備や会場ルールの最新状況は会場に確認してください。
 
 保存後のBlender再読み込み、柱寸法、主要寸法、閉じた形状、GLB/OBJの寸法保持を確認しました。配布対象の部品はスキャン版41個、PDF版88個です。検証データは各モデルのフォルダにあります。元メッシュに対する局所平面フィット残差や標本最大値は、実空間に対する精度保証・連続面全体の誤差上限ではありません。
+
+v1.1.0のSTEPは、各部品の輪郭を押し出して再構築しました。三角形を個別のCAD面にした変換ではありません。スキャン版は41ソリッド・776面、PDF版は88ソリッド・1,274面で、全て解析的な平面です。柱・壁の凹凸・柱の面取り・開口枠・低い天井など、既存モデルの形状を保持しています。PDF版の設備配置範囲も別ソリッドで含みます。
+
+STEP再読み込み後の形状妥当性、部品ごとの寸法・体積、頂点・三角形中心・辺の中点・面サンプルによる双方向比較を確認しました。元の再構築済みGLBとの標本最大差は、スキャン版約0.0011mm、PDF版約0.0036mmです。この値は変換前後の一致度で、会場の実測精度ではありません。CAD面を三角形化した検証用メッシュの数値丸めも含み、連続面全体の保証上限ではありません。
 
 ## 利用条件・必須クレジット
 

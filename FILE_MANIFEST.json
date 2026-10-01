@@ -1,15 +1,15 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "files": [
     {
       "file": ".gitattributes",
-      "bytes": 236,
-      "sha256": "4f6807c3371447213bd886acb944cf9c9b2d28ad2beafc8311e5f01c451f5bab"
+      "bytes": 276,
+      "sha256": "f8549a05331e650f39c39d4fa3f8cf58178ac132d2ad7f45eb765ed3f07c45e7"
     },
     {
       "file": ".gitignore",
-      "bytes": 57,
-      "sha256": "085e3870aec85590658e6b752087d03b48adc5277d9a497eb7db17077a6fb60c"
+      "bytes": 74,
+      "sha256": "f562ba4597bc6613ee03c136671ed01d86d2bdf44ae739cb2e1b0647972dec98"
     },
     {
       "file": "docs/comparison/JRRF_official_PDF_comparison.pdf",
@@ -68,13 +68,13 @@
     },
     {
       "file": "docs/pdf-model.txt",
-      "bytes": 5215,
-      "sha256": "42c7d7cf73c4065ed28580001d97b3df0703f4f5bb497f9377009fbfb5b78c2b"
+      "bytes": 5855,
+      "sha256": "a3b95fa4c03b76249149c5f9169b3555f0018f499c9951e191bd77e381d534cf"
     },
     {
       "file": "docs/scan-model.txt",
-      "bytes": 6002,
-      "sha256": "0cdd5d81618d8cb36b201e8765d247558e8d50aaf0aebab6f3027502a8d68a46"
+      "bytes": 6647,
+      "sha256": "00616e2799789a79b06f7320c113f5a4fa677b1acc37b6a2a210ce9469c07d65"
     },
     {
       "file": "LICENSE",
@@ -102,6 +102,11 @@
       "sha256": "bb339a14d2914cef722a478a63a4c43a86a011ace9fd72dd849053fd02fea226"
     },
     {
+      "file": "models/pdf/JRRF_PDF_venue.FCStd",
+      "bytes": 142572,
+      "sha256": "5d8b76342272849d667abda9bbac9c80a11323b90d53ec7e73ea9f9df2381b0b"
+    },
+    {
       "file": "models/pdf/JRRF_PDF_venue.glb",
       "bytes": 234136,
       "sha256": "c0d716397e7af93931b63e473a4d812f183244c074c1755823192eaaa0a13a2f"
@@ -122,6 +127,11 @@
       "sha256": "2ec81d9424db39bed87f6b9fd7d950513e0e029572fb19f73115c68044fce966"
     },
     {
+      "file": "models/pdf/JRRF_PDF_venue.step",
+      "bytes": 4384547,
+      "sha256": "a1d54694d84f833476cad339d9710a23f1812ad23acc09b587793b0c1a50cf99"
+    },
+    {
       "file": "models/pdf/public_export_validation.json",
       "bytes": 11556,
       "sha256": "08c40bea7a8ac85f07b6bd2fc81b819777d470754d8e87ec6e5b0fc8365d475e"
@@ -132,6 +142,11 @@
       "sha256": "0e5dd9bc9b32d060f01924528c96066316998185d40a47a073ee908272d95ad3"
     },
     {
+      "file": "models/pdf/step_validation.json",
+      "bytes": 234412,
+      "sha256": "77ce03f842c2e96f29bf9aa4991b2c267138af2908b616ee2fed35d1c4f92ab4"
+    },
+    {
       "file": "models/scan/JRRF_columns_metres.csv",
       "bytes": 940,
       "sha256": "0d2ca9c029ffc5cbc17bf8e365570841c71672b917331667420db57e1420877a"
@@ -140,6 +155,11 @@
       "file": "models/scan/JRRF_venue_layout.blend",
       "bytes": 181599,
       "sha256": "0061cc94a06df760754511ff35f357c81cfaf003e3729167c9cafc5b7d2f85dc"
+    },
+    {
+      "file": "models/scan/JRRF_venue_layout.FCStd",
+      "bytes": 97079,
+      "sha256": "7f1a7e8f29583f2c00e768023044f5cfbd0907f9d7fd79d4bd3046d53f6a7e77"
     },
     {
       "file": "models/scan/JRRF_venue_layout.glb",
@@ -162,6 +182,11 @@
       "sha256": "df313daa59529cb1b61215c0d34c8060855b5957f22083cde566f92f347c8990"
     },
     {
+      "file": "models/scan/JRRF_venue_layout.step",
+      "bytes": 2762887,
+      "sha256": "13093978ea42393e0e60241c20d455ca42c84c3fc4a30fad351c3161fee333fd"
+    },
+    {
       "file": "models/scan/JRRF_venue_plan_mm.dxf",
       "bytes": 6416,
       "sha256": "ebbd2cbb5db98f1996ef2b862e9c4ad5a6d9656429d0572b14992bddb860f43c"
@@ -177,14 +202,19 @@
       "sha256": "6b7a47e6ecd25634345b01280313c8fb21281d22e7b3e0221aa176e085447d17"
     },
     {
+      "file": "models/scan/step_validation.json",
+      "bytes": 111280,
+      "sha256": "95716f5fbfa9dbbc2c36e935ebd706cb23c71b119d111ebc5855d1e7ce27b8e4"
+    },
+    {
       "file": "models/scan/validation.json",
       "bytes": 11647,
       "sha256": "2b13f2a10878ecf205b4b0e70fe7aac88abdb0e0de9c6fb52ea9c8628d64e9c8"
     },
     {
       "file": "README.md",
-      "bytes": 9514,
-      "sha256": "e326d67f1965ec3b2c17994d5adbc205b6165c7c242342761d01896b8e92fce3"
+      "bytes": 11064,
+      "sha256": "a428d43a8dca2352b04c80e013c9ab19aee6f03c0285b265c35e5f674d57adff"
     },
     {
       "file": "THIRD_PARTY_NOTICES.md",
@@ -193,8 +223,8 @@
     },
     {
       "file": "tools/README.md",
-      "bytes": 606,
-      "sha256": "b22b981dd203e86f29db9c095e423675abf49146ac16812a1ce9a90eee932f65"
+      "bytes": 562,
+      "sha256": "36be0127a35b97634a2a418369f3c90658f9100317f7933cb2a066cc51e31b30"
     },
     {
       "file": "tools/verify_exports.py",
